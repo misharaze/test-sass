@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test sass</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    
+ </head>
+<body>
+     <section id="up"  class="promo">
+           <div class="container">
+                <header class="header">
+    <a href="#" class="header__logo">
+        <img src="icons/logo.png" alt="logo">
+    </a>
+     <div class="header__official">
+              sponsor officiel
+       <span>Garmin, Polar, Suunto</span>
+      </div>
+      <div class="header__contacts">
+      <a href="tél:0145678965"  class="header__phone">01-45-67-89-65 </a>
+        <button data-modal="consultation" class="button">appeler</button>
+                  </div>
+         </header>
+        
+     
+     <div class="promo__wrapper">
+     <h1 class="promo__header">choix du puslométre</h1>
+     <h2 class="promo__subheader">on prend en compte vos préférences </h2>
+            
+     
+          <div class="promo__icons">
+             <div class="promo__icon">
+                <img src="icons/019_timer_time_stopwatch_2-64.png" alt="timer">
+                temps d'ajustement:
+                 10 minutes
+              </div>
+              <div class="promo__icon">
+                <img src="icons/app-08-hand-cart-64.png" alt="hand-cart">
+                 livraison 
+                 gratuite
+              </div>
+              <div class="promo__icon">
+                <img src="icons/messages-64.png" alt="messages">
+                on répond a tous
+                 vos questions
+                </div>
+            </div>
+            <button data-modal="consultation" class="button button_main">passer une commande</button>
+            <div class="promo__link">
+              ou 
+             <a href="#">consulter le catalogue</a>
+                  
+              </div>
+          </div>
+      </div>
+</section>
+
+     <section class="plus">
+      <div class="container">
+     <h1 class="title">nos avantages</h1>
+    
+     <div class="plus__wrapper">
+    <div class="plus__item">
+     <img src="icons/cup.png" alt="cup" class="plus__icons">
+    
+ 
+   <div class="plus__subtitle">
+
+    partage de connaissance
+  </div>
+  <div class="plus__descr">
+
+    Nos collaborateurs sont toujours prêts à partager leur expérience puisqu'ils courent eux-mêmes des semi-marathons, traversent le Bosphore à la nage et préparent des compétitions de triathlon !
+
+       </div> 
+  </div>
+  <div class="plus__item">
+    <img src="icons/shoe.png" alt="shoe" class="plus__icons">
+
+  
+
+ <section class="plus__subtitle">
+  on prend soin de votre santé
+
+<div class="plus__descr">
+  Nous travaillons pour que vos activités sportives soient bénéfiques pour votre santé et vous procurent de la joie, à vous et à vos proches !</div>
+</div>
+  <div class="plus__item">
+   <img src="icons/heart.png" alt="heart" class="plus__icons plus__icons_animated">
+
+          <div class="plus__subtitle">
+        partage de connaissance
+      </div>
+      <div class="plus__descr">
+        Laissez-nous vous aider à apprendre la bonne technique de course! Nous sommes en partenariat avec la plus grande école de course à pied de Russie - I LOVE RUNNING.
+
+                             </div>
+                        </div>
+                  </div>
+            </div>
+      </div>     
+     
+   <section class="consultation">
+    <div class="container">
+      <h2 class="title title_left">
+        obtenez une aide pour le choix<br> 
+        de votre pulsométre
+      </h2>
+      <div class="consultation_descr">
+        remplissez vos informations personnel et <br>
+        nous vous rappelerons dans 10 minutes
+
+         </div>
+
+         <form id="consultation-forms" class="feed-forms" action="#">
+          
+        <input name='name' required placeholder="votre nom" type="text">
+        <input name='phone' required placeholder="votre téléphone">
+        <input name='email' required placeholder="votre email" type="email">
+
+        <button class="button button_submit">envoyer la requete </button>
+         </form>
+        </div>
+      
+</section>
+
+    <section class="carousel">
+     <div class="container">
+
+      <div class="carousel_inner">
+    <div>
+        <img src="img/slide_1.jpg" alt="1">
+        </div>
+      <div>
+        <img src="img/slide_2.jpg" alt="2">
+        </div>
+      <div>
+        <img src="img/slide_3.jpg" alt="3">
+        </div>
+      </div>
+    <button type="button"class="prev"><img src= "../icons/left.svg"></button>
+    <button type="button" class="next"><img src="../icons/right.svg"></button>
+    
+  </div>
+              
+</section>
+
+<section class="catalog">
+  <div class="container">
+    <h2 class="title">catalogue de pulsométre</h2>
+
+   <ul class="catalog__tabs">
+    <li class="catalog__tab catalog__tab_active"><div>pour le fitness</div></li>
+    <li class="catalog__tab"><div>pour la course </div></li>
+    <li class="catalog__tab"><div>pour le triathlon</div></li>
+   </ul>
+
+
+   <div class="catalog__content catalog__content_active">
+    <div class="catalog-item">
+    <div class="catalog-item__wrapper">
+    <div class="catalog-item__content catalog-item__content_active ">
+
+      <img src="img/watch.png" alt="watch" class="catalog-item_img">
+      <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+      <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+      <a href="#" class="catalog-item_link">en savoir plus</a>
+    </div>
+    <ul class="catalog-item_list ">
+      <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+      </li>
+      <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+      </li>
+      <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+     </li>
+      <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+     </li>
+         <a href="#" class="catalog-item_back">retour</a>
+    </ul>
+    </div>
+
+
+ <hr>
+ <div class="catalog-item_footer">
+  <div class="catalog-item_prices">
+    <div class="catalog-item_old_price">150 euros.</div>
+    <div class="catalog-item_price">100 euros.</div>
+        </div>
+        <button class="button button_mini">acheter</button>  
+      </div>
+    </div>
+   
+    <div class="catalog-item">
+      <div class="catalog-item__wrapper">
+      <div class="catalog-item__content catalog-item__content_active ">
+  
+        <img src="img/watch.png" alt="watch" class="catalog-item_img">
+        <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+        <div class="catalog-item_descr">pour les débutants,compte les battements coeur</div>
+        <a href="#" class="catalog-item_link">en savoir plus</a>
+      </div>
+      <ul class="catalog-item_list ">
+        <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+        </li>
+        <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+        </li>
+        <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+       </li>
+        <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+       </li>
+       <a href="#" class="catalog-item_back">retour</a>
+      </ul>
+      </div>
+  
+  
+   <hr>
+   <div class="catalog-item_footer">
+    <div class="catalog-item_prices">
+      <div class="catalog-item_old_price">150 euros.</div>
+      <div class="catalog-item_price">100 euros.</div>
+          </div>
+          <button class="button button_mini">acheter</button>  
+        </div>
+      </div>
+    
+      <div class="catalog-item">
+      <div class="catalog-item__wrapper">
+      <div class="catalog-item__content catalog-item__content_active ">
+  
+        <img src="img/watch.png" alt="watch" class="catalog-item_img">
+        <div class="catalog-item_subtitle">pulsométre Polar FT2</div>
+        <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+        <a href="#" class="catalog-item_link">en savoir plus</a>
+      </div>
+      <ul class="catalog-item_list ">
+        <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+        </li>
+        <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+        </li>
+        <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+       </li>
+        <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+       </li>
+       <a href="#" class="catalog-item_back">retour</a>
+      </ul>
+      </div>
+  
+  
+   <hr>
+   <div class="catalog-item_footer">
+    <div class="catalog-item_prices">
+      <div class="catalog-item_old_price">150 euros.</div>
+      <div class="catalog-item_price">100 euros.</div>
+          </div>
+          <button class="button button_mini">acheter</button>  
+        </div>
+      </div>
+    
+      <div class="catalog-item">
+        <div class="catalog-item__wrapper">
+        <div class="catalog-item__content catalog-item__content_active  ">
+    
+          <img src="img/watch.png" alt="watch" class="catalog-item_img">
+          <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+          <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+          <a href="#" class="catalog-item_link">en savoir plus</a>
+        </div>
+        <ul class="catalog-item_list ">
+          <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+          </li>
+          <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+          </li>
+          <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+         </li>
+          <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+         </li>
+         <a href="#" class="catalog-item_back">retour</a>
+        </ul>
+        </div>
+    
+    
+     <hr>
+     <div class="catalog-item_footer">
+      <div class="catalog-item_prices">
+        <div class="catalog-item_old_price">150 euros.</div>
+        <div class="catalog-item_price">100 euros.</div>
+            </div>
+            <button class="button button_mini">acheter</button>  
+          </div>
+        </div>
+      
+     <div class="catalog-item">
+        <div class="catalog-item__wrapper">
+        <div class="catalog-item__content catalog-item__content_active ">
+    
+          <img src="img/watch.png" alt="watch" class="catalog-item_img">
+          <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+          <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+          <a href="#" class="catalog-item_link">en savoir plus</a>
+        </div>
+        <ul class="catalog-item_list ">
+          <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+          </li>
+          <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+          </li>
+          <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+         </li>
+          <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+         </li>
+         <a href="#" class="catalog-item_back">retour</a>
+        </ul>
+        </div>
+    
+    
+     <hr>
+     <div class="catalog-item_footer">
+      <div class="catalog-item_prices">
+        <div class="catalog-item_old_price">150 euros.</div>
+        <div class="catalog-item_price">100 euros.</div>
+            </div>
+            <button class="button button_mini">acheter</button>  
+          </div>
+       </div>
+      
+     <div class="catalog-item">
+        <div class="catalog-item__wrapper">
+        <div class="catalog-item__content catalog-item__content_active ">
+    
+          <img src="img/watch.png" alt="watch" class="catalog-item_img">
+          <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+          <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+          <a href="#" class="catalog-item_link">en savoir plus</a>
+        </div>
+        <ul class="catalog-item_list ">
+          <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+          </li>
+          <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+          </li>
+          <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+         </li>
+          <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+         </li>
+         <a href="#" class="catalog-item_back">retour</a>
+        </ul>
+        </div>
+    
+    
+     <hr>
+     <div class="catalog-item_footer">
+      <div class="catalog-item_prices">
+        <div class="catalog-item_old_price">150 euros.</div>
+        <div class="catalog-item_price">100 euros.</div>
+            </div>
+            <button class="button button_mini">acheter</button>  
+          </div>
+        </div>
+      
+
+    <div class="catalog__content ">
+        
+     <div class="catalog-item">
+      <div class="catalog-item__wrapper">
+      <div class="catalog-item__content catalog-item__content_active">
+  
+        <img src="img/watch.png" alt="watch" class="catalog-item_img">
+        <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+        <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+        <a href="#" class="catalog-item_link">en savoir plus</a>
+      </div>
+      <ul class="catalog-item_list ">
+        <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+        </li>
+        <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+        </li>
+        <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+       </li>
+        <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+       </li>
+       <a href="#" class="catalog-item_back">retour</a>
+      </ul>
+      </div>
+  
+  
+   <hr>
+   <div class="catalog-item_footer">
+    <div class="catalog-item_prices">
+      <div class="catalog-item_old_price">150 euros.</div>
+      <div class="catalog-item_price">100 euros.</div>
+          </div>
+          <button class="button button_mini">acheter</button>  
+        </div>
+      </div>
+    
+    <div class="catalog__content ">
+    <div class="catalog-item">
+      <div class="catalog-item__wrapper">
+      <div class="catalog-item__content catalog-item__content_active">
+  
+        <img src="img/watch.png" alt="watch" class="catalog-item_img">
+        <div class="catalog-item_subtitle">pulsométre Polar FT1</div>
+        <div class="catalog-item_descr">pour les débutants, compte les battements du coeur</div>
+        <a href="#" class="catalog-item_link">en savoir plus</a>
+      </div>
+      <ul class="catalog-item_list ">
+        <li>vous entendrez  un signal annonçant une pulsations correct lors de votre entrainement 
+        </li>
+        <li>une informations apparaitra sur le pulsométre des zones de votre corps qui sont en actions
+        </li>
+        <li>une informations concernant vos calories dépenser pendant l'exercise apparaitra
+       </li>
+        <li>vous pourrez avoir un historique  des 10 entrainements précèdent  
+       </li>
+       <a href="#" class="catalog-item_back">retour</a>
+      </ul>
+      </div>
+  
+  
+   <hr>
+   <div class="catalog-item_footer">
+    <div class="catalog-item_prices">
+      <div class="catalog-item_old_price">150 euros.</div>
+      <div class="catalog-item_price">100 euros.</div>
+          </div>
+          <button class="button button_mini">acheter</button>  
+        </div>
+      </div>
+</section>
+
+<section class="feed">
+  <div class="container">
+<h2 class="title">avis des clients</h2>
+
+
+<div class="feed_item">
+<img src="img/photo_1.png" alt="photo_1" class="feed_img">
+<div class="feed_text">
+  <div class="feed_subtitle">Ирина Иванченко 
+
+</div>
+<div class="feed_count">
+  2 полумарафона
+</div>
+<div class="feed_descr">
+  Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая 
+обратилась туда же.
+ <br><br> 
+  Новые цели - новый гаджет!
+<br><br> 
+Спасибо, RunSmart! 
+
+      </div>
+ </div>
+</div>
+
+<div class="feed_item">
+  <img src="img/photo_2.png" alt="photo_2" class="feed_img">
+  <div class="feed_text">
+    <div class="feed_subtitle">Ирина Иванченко 
+  
+  </div>
+  <div class="feed_count">
+    2 полумарафона
+  </div>
+  <div class="feed_descr">
+    Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая 
+  обратилась туда же.
+   <br><br> 
+    Новые цели - новый гаджет!
+  <br><br> 
+  Спасибо, RunSmart! 
+  
+        </div>
+   </div>
+  </div>
+
+<div class="feed_item">
+  <img src="img/photo_3.png" alt="photo_3" class="feed_img">
+  <div class="feed_text">
+    <div class="feed_subtitle">Ирина Иванченко 
+  
+  </div>
+  <div class="feed_count">
+    2 полумарафона
+  </div>
+  <div class="feed_descr">
+    Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая 
+  обратилась туда же.
+   <br><br> 
+    Новые цели - новый гаджет!
+  <br><br> 
+  Спасибо, RunSmart! 
+  
+        </div>
+   </div>
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9a2576b09a742107e77f65c37f085824bee6dd8df2ea5fc48c78d6cd6429b707&amp;source=constructor" width="100%"  height="630"frameborder="0"></iframe>
+    <div class="footer_info">
+     <address class="footer_addr">Москва, Мясницкий проезд, д.3с1</address> 
+     <a class="footer_phone" href="tel:84999228974">8 (499) 922-89-74</a>
+    <div class="footer_social">
+      <a href="#" class="footer_social-item"><img src="img/1.svg" alt="1"></a>
+      <a href="#" class="footer_social-item"><img src="img/2.svg" alt="2"></a>
+      <a href="#" class="footer_social-item"><img src="img/3.svg" alt="3"></a>
+    </div>
+    </div>
+  </footer>
+
+
+ <div class="overlay">
+  <div class="modal" id= "consultation">
+    <div class="modal_close">&times;</div>
+    <div class="modal_subtitle">Просто заполните форму заявки</div>
+      <div class="modal_descr">и мы перезвоним вам в течении 10 минут</div>
+    <form  class="feed-forms" action="#">
+          
+      <input name='name'  required placeholder="votre nom" type="text">
+      <input name='phone' required placeholder="votre téléphone">
+      <input name='email' required placeholder="votre email" type="email">
+
+      <button class="button button_submit">envoyer la requete </button>
+</form>    
+  </div>
+ </div>
+ <div class="modal" id= "order">
+ <div class="modal_close">&times;</div>
+ <div class="modal_subtitle">ваш заказ</div>
+   <div class="modal_descr">Пульсометр Polar FT1</div>
+ <form   class="feed-forms" action="#">
+       
+   <input name="name" required placeholder="votre nom" type="text">
+   <input name="phone"  required placeholder="votre téléphone">
+   <input name="email" required placeholder="votre email" type="email">
+
+   <button class="button button_submit">купить</button>
+</form> 
+</div>
+
+<div class="modal modal_mini" id= "thanks">
+  <div class="modal_close">&times;</div>
+  <div class="modal_subtitle">спасибо за вашу заявку</div>
+    <div class="modal_descr">Наш менеджер свяжется с вами
+      в ближайшее время!</div>
+    </div>
+  
+
+
+<a href="#up" class="pageup">
+  <img src="icons/up.svg" alt="up">
+</a>
+
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

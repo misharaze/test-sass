@@ -1,0 +1,32 @@
+.carousel{
+    background-color: #fff;
+    padding: 81px 0;
+ &_inner{
+width: 750px;
+margin: 0 auto;
+position: relative;
+
+}  
+.prev, .next {
+   position: absolute;
+   border:none;
+  background-color: #fff;
+    top:50%;
+    left: -66px;
+
+img{
+    width: 31px;
+    height: 51px;
+    margin: 0 auto;
+    
+   } 
+} 
+
+.next {
+    left: auto;
+   right: -66px;
+
+}
+
+
+} 
